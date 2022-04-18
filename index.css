@@ -1,0 +1,255 @@
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin:0px;
+  padding:0px;
+  color: black;
+}
+
+.h1 {
+  font-size: 48px;
+}
+
+.contents1{
+  margin-top: -10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.result{
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.intro_bg{
+  background-image:url("https://bbscdn.df.nexon.com/data6/commu/202111/092351_61959d177240f.jpg");
+  width:100%;
+  height: 800px;
+  background-size: cover;
+}
+
+.header{
+  height: 86px;
+
+}
+.nav{
+  display: flex;
+  position: fixed;
+  line-height: 86px;
+  width: 100%;
+  justify-content: flex-end;
+  z-index: 1;
+  background-color: #263343;
+}
+
+.nav >li{
+  margin-left: 84px;
+  margin-right: 80px;
+}
+
+.nav > li >a:hover{
+  background-color: #d49466;
+  border-radius: 4px;
+  height: 30px;
+}
+
+.nav > li > a {
+  color: #fff;
+  font-size: larger;
+}
+
+.amount {
+  position: relative;
+  top:-66px;
+  display: flex;
+  width:1280px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.amount > li {
+  flex: 1;
+  height: 132px;
+  background-color: #fff;
+}
+
+.amount > li > div {
+  text-align : center; 
+  background-color: #fff;
+  margin-top: 37px;
+  height: 57px;
+}
+
+.amount > li:not(:last-child) > div{
+  border-right: 1px solid gray;
+}
+
+.intro_text{
+  width:100%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.intro_text > h1{
+  margin-bottom: 15px;
+}
+
+.intro_text > h1,
+.intro_text > h4{
+  color: #fff;
+}
+
+/* main_text0 */
+
+.main_text0{
+  width: 100%;
+  height:601px;
+  margin-top: -132px;
+  background: #f1f2f3;
+}
+
+.main_text0 >h1 {
+  padding-top: 116px;
+  text-align: center;
+  }
+
+.main_text0 > .contents1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icons {
+  display: flex;
+  width: 1280px;
+  height: 302px;
+  margin: auto;
+}
+
+.icons > li {
+  flex: 1;
+  background-color: #fff;
+  height: 302px;
+  margin-top: 49px;
+  text-align: center;
+}
+
+.icons >li:not(:last-child){
+  margin-right: 20px;
+}
+
+.icons > li > .icon_img > img {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: 150px;
+}
+
+/*main_text1*/
+
+.main_bottom {
+  width: 100%;
+  height: 680px;
+  background-color: #fff;
+}
+
+.main_text1 > h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main_text1 > h2 {
+  text-align: center;
+  margin-bottom: 40px;} 
+
+.contents2_img > img {
+  height: 480px;
+  width: 640px;
+  border-radius: 10px;
+}
+
+
+.contents2 {
+  display: flex;
+  width: 1280px;
+  height: 400px;
+  position: relative;
+  margin: auto;
+  background-color: #fff;
+}
+
+.contents2_text{
+  width: 640px
+}
+
+.contents2_text > li {
+  text-align: center;
+}
+
+.contents2_text > h2{
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*main_last*/
+
+.main_last {
+  width: auto;
+  height: 500px;
+  background-color: rgb(27, 27, 34);
+}
+
+.contents3 {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  background-color: #fff
+}
+
+.contents3 > .left_img{
+  background-image: url("https://bbscdn.df.nexon.com/data6/commu/201904/110144_5ca1710875ced.jpg");
+  background-size: cover;
+  height: auto;
+  width: 60%;
+}
+
+
+.contents3 > .right_img{
+  height: auto;
+  width: 40%;
+  text-align: center;
+  padding-top: 140px;
+}
+
+.contents3>.right_img> .more{
+  text-align: center;
+  border:1px solid #f1f2f3;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px auto;
+  font-size: larger;
+  background-color: #f1f2f3;
+}
+
+/*footer*/
+footer{
+  width: auto;
+  background-color: #263343;
+  display: flex;
+  padding: 20px;
+}
+
+footer > div:first-child{
+  flex:3;
+  text-align: center;
+  color: white;
+}
+
+footer > div:last-child{
+  flex: 7;
+  color: white;
+}
